@@ -1,0 +1,56 @@
+.navbar {
+    background-color: aliceblue;
+    overflow: hidden;
+    padding: 8px;
+}
+.logo {
+    float: left;
+    size: 68px;
+    padding: 12px;
+}
+.header {
+    justify-content: right;
+    margin-right: 0px;
+    flex: 11 1 auto;
+    list-style: none;
+}
+.navbar a {
+    float: right;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin: 15px;
+    text-decoration: none;
+}
+.about {
+    padding-left: 80px;
+}
+.myimg {
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 170px;
+}
+.hirebtn {
+    color: azure;
+    display: inline-block;
+    background-color: blue;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 130px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 8px;
+}
+.links{
+    width: 10px;
+    height: 10px;
+    float:left;
+}
