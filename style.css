@@ -1,64 +1,111 @@
+
+*{
+box-sizing: border-box;
+margin:0;
+padding: 0;
+background-color: rgb(122, 186, 243);
+
+
+
+}
 .navbar {
-    background-color: aliceblue;
     overflow: hidden;
     padding: 8px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
 }
 .logo {
     float: left;
     size: 68px;
     padding: 12px;
+    color: azure;
+    cursor: pointer;
+    margin-right: 45px;
+    transition: all 0.3s ease 0s;
+
 }
+.logo:hover{
+   color: white;
+}
+
 .header {
     justify-content: right;
     margin-right: 0px;
     flex: 11 1 auto;
     list-style: none;
-    color: black;
+    color:white;
 }
-.header:hover{
-    opacity: 0.5;
+
+.header li a{
+    transition: all 0.3s ease 0s;
+}
+.header li a:hover{
+color:rgb(160, 160, 124)
+}
+.describe{
+    padding-left: 40px;
+}
+.name{
+    padding-top: 200px;
+
 }
 .name:hover{
-    opacity: 0.5;
+    color: rgb(58, 50, 50);}
+.name,.describe{
+    transition: all 0.3s ease 0s;
+
 }
-.description:hover{
-    opacity: 0.5;
-}
+.describe:hover{
+color: rgb(58, 50, 50);}
+
 .navbar a {
     float: right;
-    color: rgb(0, 0, 0);
+    color:white;
     text-align: center;
     font-size: 18px;
     padding: 8px;
     text-decoration: none;
 }
 a {
-    color: rgb(0, 0, 0);
+    color:white;
     text-transform: uppercase;
     margin: 15px;
     text-decoration: none;
 }
 .about {
-    padding-left: 80px;
+    padding-top: 40px;
+    padding-left:80px;
+    color: antiquewhite;
 }
 .myimg {
     float: right;
     padding-right: 50px;
     padding-bottom: 170px;
 }
+.btn{
+    padding-left: 180px;
+    padding-top: 40px;
+
+}
 
 .hirebtn {
     color: azure;
     display: inline-block;
-    background-color: blue;
+    background-color: rgb(29, 29, 235);
     font-size: 16px;
     text-align: center;
-    border-radius: 130px;
+    border-radius: 50px;
     border-width: initial;
     border-style: none;
-    border-color: initial;
+    border:none;
     border-image: initial;
-    padding: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.hirebtn:hover{
+    background-color: black ;
 }
 .links{
     width: 10px;
