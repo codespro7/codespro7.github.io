@@ -13,6 +13,16 @@
     margin-right: 0px;
     flex: 11 1 auto;
     list-style: none;
+    color: black;
+}
+.header:hover{
+    opacity: 0.5;
+}
+.name:hover{
+    opacity: 0.5;
+}
+.description:hover{
+    opacity: 0.5;
 }
 .navbar a {
     float: right;
@@ -36,6 +46,7 @@ a {
     padding-right: 50px;
     padding-bottom: 170px;
 }
+
 .hirebtn {
     color: azure;
     display: inline-block;
