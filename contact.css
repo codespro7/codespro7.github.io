@@ -28,6 +28,8 @@ color: #fff;
 
 }
     .contact .content p{
+        padding-top: 35px;
+        padding-bottom: 20px;
      font-weight: 300;
      color: #fff;
     }
@@ -56,15 +58,14 @@ color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
     font-size: 22px;
 }
 .container .contactinfo .box .text{
   margin-left: 20px;
    font-size: 16px;
     display: flex;
-    color:#fff;
-    flex-direction: column;
+    color:#000;
+    /* flex-direction: column; */
     font-weight: 300;
 }
 .container .contactinfo .box .text h3{
@@ -88,14 +89,46 @@ color: #fff;
     width:100px;
     margin-top: 10px;
 }
-.contactform .inputbox input{
+.contactform .inputbox input,
+
+.contactform .inputbox input textarea{
     width:100%;
     margin: 10px 0;
     padding:5px 0;
     font-size: 16px;
     border:none;
-    border-bottom: 2px solid #333;
-    outline: nb;
+    border: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.name{
+    border: 2px solid #333;
+font-family: 'Times New Roman', Times, serif;
+}
+.contactform .inputbox input[type="submit"]{
+    width:100px;
+    background: #00bcd4;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    font-size:18px;
+
+}
+@media{
+    .contact{
+        padding: 50px;
+    }
+.container .contactinfo{
+    margin-bottom:40px;
+
+}
+.container .contactinfo,.contactform{
+width: 100%;    
+}
+
+
+
 }
 
 
