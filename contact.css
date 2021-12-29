@@ -115,21 +115,21 @@ font-family: 'Times New Roman', Times, serif;
     font-size:18px;
 
 }
-@media{
-    .contact{
-        padding: 50px;
-    }
+/* @media{  .contact{
+    padding: 50px;
+}
 .container .contactinfo{
-    margin-bottom:40px;
+margin-bottom:40px;
 
 }
 .container .contactinfo,.contactform{
 width: 100%;    
-}
+}   } */
+  
 
 
 
-}
+
 
 
 
